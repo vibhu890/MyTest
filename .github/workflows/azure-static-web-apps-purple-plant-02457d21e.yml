@@ -29,7 +29,7 @@ jobs:
           ###### Updated Repository/Build Configurations ######
           app_location: "/" # Updated path to Angular app
           api_location: ""     # Optional - specify if you have API
-          output_location: "dist/micro-fe" # Output after build
+          output_location: "dist/account_delete" # Output after build
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
@@ -43,6 +43,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PURPLE_PLANT_02457D21E }}
           action: "close"
+
 
 
 
