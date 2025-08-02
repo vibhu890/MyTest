@@ -27,7 +27,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           ###### Updated Repository/Build Configurations ######
-          app_location: "micro-fe" # Updated path to Angular app
+          app_location: "MyTest" # Updated path to Angular app
           api_location: ""     # Optional - specify if you have API
           output_location: "MyTest/dist/micro-fe" # Output after build
           ###### End of Repository/Build Configurations ######
@@ -43,5 +43,6 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PURPLE_PLANT_02457D21E }}
           action: "close"
+
 
 
