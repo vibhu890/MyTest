@@ -17,8 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/my-visits-v2/",
-            "outputPath": "dist/my-visits-v2",
+            "baseHref": "/micro-fe/",
+            "outputPath": "dist/micro-fe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
